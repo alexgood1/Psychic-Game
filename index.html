@@ -6,45 +6,51 @@
     <meta name="viewport" content="width=>, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Psychic Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <div>
+    <div class="container">
         <h1>The Psychic Game</h1>
-    </div>
-    <div class="row">
-        <img src="assets/images/crystal-ball.png" alt="Psychic Game">
-        <div class="col-lg-4">
-            <p>
-                Guess what letter I'm thinking of...
-            </p>
-        </div>
-        <div class="col-lg-4">
-            <p>
-                Wins:
-            </p>
-        </div>
-        <div class="col-lg-4">
-            <p>
-                Losses:
-            </p>
-        </div>
-        <div class="col-lg-4">
-            <p>
-                Guesses Left:
-            </p>
-        </div>
-        <div class="col-lg-4">
-            <p>
-                Your Guesses So Far:
-            </p>
+        <div class="row">
+            <img src="assets/images/crystal-ball.png" alt="Psychic Game">
+            <!-- <div class="col-lg-4"> -->
+                <p>Guess the secret letter. Choose letters from a - z. Press a key to begin.</p>
+            <br>
+
+                <h3>Your Guesses So Far:</h3>
+                <div id="letters-used" class="well well-lg"></div>
+            <!-- </div> -->
+            <br>
+            
+            <div class="col-lg-4">
+                <h3>Wins:<span id="wins" class="badge">0</span></h3>   
+            </div>
+
+            <div class="col-lg-4">
+                <h3>Losses:<span id="losses" class="badge">0</span></h3>
+            </div>
+
+            <div class="col-lg-4">
+                <h3>Guesses Left:<span id="guesses-left" class="badge">9</span></h3>
+            </div>
+            <!-- <div class="col-lg-4"> -->
+                <!-- <h3>Your Guesses So Far:</h3> -->
+                    
+            <!-- </div> -->
         </div>
     </div>
 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+crossorigin="anonymous"></script>
 
-    <script src="game.js"></script>
+<script src="assets/js/game.js"></script>
+
 </body>
 
 </html>
