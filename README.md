@@ -15,14 +15,7 @@ none
 ## Deployment
 
 Open game in browser and begin by following on-screen instructions and/or pressing any alphabet key on the keyboard.
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
  
-
 ## Authors
 
 * **Alexandra Goodwin** - *Initial work* - [GitHub](https://alexgood1.github.io/Psychic-Game/)
