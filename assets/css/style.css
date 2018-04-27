@@ -1,0 +1,16 @@
+img {
+    align-content: center;
+    float: right;
+    position: relative;
+    display: inline-flex;
+    z-index: -1;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin-top: 60px;
+    z-index: 1;
+}
