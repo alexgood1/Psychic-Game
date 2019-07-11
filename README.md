@@ -1,12 +1,14 @@
 # Psychic-Game
 
-Demo - Basic JavaScript Game
+<img src="assets/images/psychic-game.png">
 
-technologies used: html, css, javascript, 
+Demo - JavaScript Game
+
+Technologies used: JavaScript, HTML, CSS
 
 # Project Title
 
-The Psychic Game: play by choosing any letter from the alphabet on the keyboard to try and guess the secret letter for each round. Player gets 9 guesses before either winning or losing a round. Win/Lose 10 rounds before game is reset back 0. 
+The Psychic Game: To play, start by choosing any letter from A-Z on the keyboard to guess the secret letter generated for each round. Player gets 9 guesses before either winning or losing a round. Win/Lose 10 rounds before game is reset back 0. 
 
 ### Prerequisites
 
@@ -26,4 +28,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Thank you for being a great learning source: UC Berkeley Extension Jerome and TAs
+* Thank you for being great teachers: UC Berkeley Extension Jerome and TAs
