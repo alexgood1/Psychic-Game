@@ -20,7 +20,7 @@ Open game in browser and begin by following on-screen instructions and/or pressi
  
 ## Authors
 
-* **Alexandra Goodwin** - *Initial work* - [GitHub](https://alexgood1.github.io/Psychic-Game/)
+* **Alexandra Goodwin** - [GitHub](https://alexgood1.github.io/Psychic-Game/)
 
 ## License
 
